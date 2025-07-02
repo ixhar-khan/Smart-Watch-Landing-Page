@@ -1,0 +1,612 @@
+/* Mobile Portrait Devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+  .first-section {
+    padding: 15px 20px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .main-banner {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+
+  .left-dev {
+    width: 100%;
+  }
+
+  .left-dev h1 {
+    font-size: 50px;
+    line-height: 57px;
+  }
+
+  .left-dev p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .search-form {
+    width: 100%;
+  }
+
+  .right-dev {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger img {
+    cursor: pointer;
+  }
+
+  .only-tablet {
+    display: none;
+  }
+
+  .Search-icon-two {
+    position: relative;
+    bottom: 3px;
+  }
+
+  .section-two-child {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two {
+    padding: 30px 20px;
+  }
+
+  .first-watch {
+    width: 100%;
+    padding: 30px;
+    flex-grow: 3;
+  }
+
+  .img-div {
+    width: 30%;
+    height: auto;
+  }
+
+  .watch-text {
+    width: 70%;
+    height: auto;
+  }
+
+  .section-three {
+    padding: 30px 20px;
+  }
+
+  .section-three-child {
+    gap: 30px;
+  }
+
+  .product-card {
+    width: 47%;
+  }
+
+  .text-continar p,
+  h2 {
+    text-align: center;
+  }
+
+  .text-continar h2 {
+    font-size: 30px;
+  }
+  .text-continar p {
+    font-size: 14px;
+  }
+
+  .section-four {
+    padding: 30px 20px;
+  }
+
+  .testimonials-wrapper {
+    flex-direction: column;
+  }
+
+  .second-testimonial {
+    display: none !important;
+  }
+  .testimonial {
+    width: 100% !important;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .testimonials-text h3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .person-img {
+    width: 100%;
+  }
+
+  .person-img img {
+    width: 40%;
+  }
+
+  .person-info {
+    width: 100%;
+  }
+
+  .person-info p {
+    width: 100%;
+  }
+
+  .testimonials-text {
+    gap: 10px;
+  }
+
+  .dots-icon {
+    width: 20%;
+  }
+  .testimonials-card {
+    gap: 30px;
+  }
+
+  .section-five {
+    padding: 30px 20px;
+  }
+
+  .newslatter {
+    padding: 15px;
+  }
+
+  .watch-img {
+    display: none;
+  }
+
+  .newslatter-form {
+    width: 100%;
+  }
+
+  .newslatter-form h5 {
+    font-size: 23px;
+  }
+
+  .newslatter-form p {
+    font-size: 13px;
+  }
+
+  .newslatter-input {
+    width: 100%;
+  }
+
+  #email {
+    width: 65%;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+
+  #email::placeholder {
+    font-size: 14px;
+  }
+
+  .email-submit-button {
+    width: 35%;
+  }
+
+  .footer-wrapper p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet Portrait Devices (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .first-section {
+    padding: 10px 20px;
+  }
+
+  .nav-items li {
+    font-size: 15px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    position: relative;
+    top: 1px;
+  }
+
+  .left-dev h1 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .left-dev p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .section-two {
+    padding: 30px 20px;
+  }
+
+  .only-tablet {
+    display: block;
+  }
+
+  .section-two-child {
+    flex-wrap: wrap;
+  }
+
+  .first-watch {
+    width: 47%;
+  }
+
+  .section-three {
+    padding: 30px 20px;
+  }
+  .product-card {
+    width: 47%;
+  }
+
+  .section-four {
+    padding: 30px 20px;
+  }
+  .testimonials-wrapper {
+    flex-direction: column;
+  }
+
+  .second-testimonial {
+    display: none !important;
+  }
+
+  .testimonial {
+    width: 100% !important;
+  }
+
+  .person-img {
+    width: 20%;
+  }
+
+  .person-info {
+    width: 80%;
+  }
+
+  .dots-icon {
+    width: 20%;
+  }
+
+  .testimonials-card {
+    gap: 30px;
+  }
+
+  .section-five {
+    padding: 30px 20px;
+  }
+
+  .newslatter {
+    padding: 20px;
+  }
+
+  .newslatter-form {
+    width: 70%;
+  }
+
+  .watch-img {
+    width: 30%;
+  }
+  .watch-img img {
+    width: 100%;
+  }
+
+  .newslatter-form h5 {
+    font-size: 30px;
+  }
+
+  .newslatter-form p {
+    font-size: 15px;
+  }
+
+  #email {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
+  #email::placeholder {
+    font-size: 15px;
+  }
+
+  .footer-wrapper p {
+    font-size: 14px;
+  }
+}
+
+/* Laptop Devices (1025px to 1366px) */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .right-dev {
+    width: 40%;
+  }
+
+  .left-dev {
+    width: 60%;
+  }
+
+  .first-section {
+    padding: 10px 20px;
+  }
+
+  .left-dev h1 {
+    width: 90%;
+  }
+
+  .left-dev p {
+    width: 75%;
+  }
+
+  .right-dev img {
+    width: 80%;
+  }
+
+  .search-form {
+    width: 75%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .section-two {
+    padding: 30px 20px;
+  }
+
+  .section-two-child {
+    padding: 0px;
+  }
+
+  .img-div {
+    width: 30%;
+  }
+
+  .watch-text {
+    width: 70%;
+  }
+
+  .only-tablet {
+    display: none;
+  }
+
+  .section-three {
+    padding: 30px 20px;
+  }
+
+  .section-four {
+    padding: 30px 20px;
+  }
+
+  .section-five {
+    padding: 30px 20px;
+  }
+
+  .newslatter {
+    padding: 40px 40px;
+  }
+
+  .newslatter-input {
+    width: 73%;
+  }
+}
+
+/* Extra Wide Devices (above 1700px) */
+@media only screen and (min-width: 1700px) {
+  .first-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 300px;
+  }
+
+  .first-section-chlid {
+    width: 1200px;
+    height: 100%;
+    align-self: center;
+  }
+
+  .left-dev h1 {
+    width: auto;
+  }
+
+  .left-dev p {
+    width: 85%;
+  }
+
+  .search-form {
+    width: 85%;
+  }
+
+  .Search-icon-two {
+    right: 280px;
+  }
+
+  .right-dev img {
+    width: 70%;
+  }
+
+  .main-banner {
+    padding: 50px 0px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .nav-items li {
+    font-weight: 500;
+  }
+
+  .Search-icon {
+    width: 20%;
+  }
+
+  .Person-icon {
+    width: 25%;
+  }
+
+  .Shopping-cart-icon {
+    width: 25%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .section-two {
+    padding: 50px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-two-child {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px;
+  }
+
+  .first-watch {
+    width: 33.33%;
+    height: auto;
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+  .first-watch-child {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .img-div {
+    width: 35%;
+    height: auto;
+  }
+
+  .img-div img {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+  .watch-text {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .watch-text span {
+    color: #1e1d1d;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .watch-text p {
+    color: #8b8e99;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .first-watch:hover {
+    box-shadow: 0 0 15px 1px #e5e5e5;
+  }
+
+  .first-watch:hover .img-div img {
+    transform: translateY(-10px);
+  }
+
+  .only-tablet {
+    display: none;
+  }
+
+  .section-three {
+    width: 100%;
+    padding: 50px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-three-child {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .section-four {
+    padding: 50px 300px;
+  }
+
+  .section-four-child {
+    width: 1200px;
+  }
+
+  .testimonials-card {
+    width: 1200px;
+  }
+
+  .person-img {
+    min-width: 30%;
+    height: auto;
+  }
+  .person-info {
+    min-height: 70%;
+    height: auto;
+    gap: 5px;
+  }
+
+  .section-five {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-five-child {
+    width: 1200px;
+    height: 100%;
+  }
+}
