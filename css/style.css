@@ -90,9 +90,12 @@ body html {
 }
 
 .nav-items li {
-  list-style-type: none;
+  list-style: none !important;
   padding: 0px;
   margin: 0px;
+}
+
+.nav-items a {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -100,7 +103,7 @@ body html {
   text-transform: capitalize;
 }
 
-.nav-items li:hover {
+.nav-items a:hover {
   color: white;
   -webkit-text-decoration-color: white;
   text-decoration-color: white;
@@ -157,15 +160,32 @@ body html {
 .brand i {
   position: relative;
   top: 2px;
-  -webkit-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -o-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.brand:hover i {
-  rotate: 180deg;
-  top: -3px;
+.mobile-header{
+  display: none;
+  width: 100%;
+  height: 100%;
 }
+
+.mobile-header-child ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mobile-header-child ul li a{
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+
 
 .main-banner {
   width: 100%;
@@ -794,7 +814,11 @@ body html {
 
 .testimonials-card {
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 50px !important;
+   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -807,7 +831,7 @@ body html {
 
 .testimonials-wrapper {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -822,6 +846,7 @@ body html {
   -ms-flex-align: center;
   align-items: center;
   gap: 50px;
+  box-sizing: border-box !important;
 }
 .testimonial {
   padding: 30px;
@@ -841,7 +866,9 @@ body html {
   gap: 30px;
   background-color: #f6f6f6;
   border-radius: 15px;
-  width: 50% !important;
+  width: calc(50% - 50px) !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
   height: auto;
   -webkit-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -o-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -903,23 +930,13 @@ body html {
   transform: translateY(-10px);
 }
 
-.next-icon {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.swiper-pagination {
+  position: static !important;
 }
 
-.dots-icon {
-  width: 10%;
-  height: auto;
+.swiper-pagination span {
+  width: 18px;
+  height: 18px;
 }
 
 .section-five {

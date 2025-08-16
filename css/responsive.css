@@ -1,7 +1,7 @@
 /* Mobile Portrait Devices (up to 767px) */
 @media only screen and (max-width: 767px) {
   .first-section {
-    padding: 15px 20px;
+    padding: 10px 10px;
   }
 
   .navbar {
@@ -49,10 +49,16 @@
 
   .hamburger {
     display: block;
+    position: relative;
+    z-index: 999;
   }
 
-  .hamburger img {
+  #hamburger-icon {
     cursor: pointer;
+  }
+
+  #x-icon {
+    display: none;
   }
 
   .only-tablet {
